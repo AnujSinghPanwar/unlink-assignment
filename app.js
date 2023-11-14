@@ -84,7 +84,7 @@ function renderSubTotal(){
    })
 
    subtotalEl.innerHTML =`
-   Item 2 is added to cart(${totalItem} items):$${totalPrice.toFixed(2)}
+   Item (${totalItem} items) is added to cart:$${totalPrice.toFixed(2)}
    `
 }
 
